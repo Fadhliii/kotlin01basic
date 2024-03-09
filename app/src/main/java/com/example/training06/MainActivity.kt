@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity()
             var i10: Intent = Intent(this, MainActivity11::class.java)
             startActivity(i10)
         }
-        //About me
+        //About mee
         var btn11: Button = findViewById(R.id.button_aboutme)
         btn11.setOnClickListener() {
             var i11: Intent = Intent(this, MainActivity12::class.java)
