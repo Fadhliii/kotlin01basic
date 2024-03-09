@@ -74,12 +74,6 @@ class MainActivity : AppCompatActivity()
             startActivity(i10)
         }
         //About me
-        fun openfbLink()
-        {
-            val fbLink = "https://www.facebook.com"
-            val intent1 = Intent(Intent.ACTION_VIEW, Uri.parse(fbLink))
-            startActivity(intent1)
-        }
         var btn11: Button = findViewById(R.id.button_aboutme)
         btn11.setOnClickListener() {
             var i11: Intent = Intent(this, MainActivity12::class.java)
